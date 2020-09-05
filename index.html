@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+  <body>
+  
+    <input type="checkbox" id="check">
+    <!--header-start-->
+   <header>
+      <label for="check">
+        <i class="fas fa-bars" id="sidebar_btn"></i>
+      </label>
+      
+      <div class="logout">
+        <i class="fa fa-power-off" aria-hidden="true"><span class="msg">Logout</span></i>
+      </div>
+      
+      <div class="notification">
+        <i class="fa fa-bell circle-icon"></i>
+        </div>
+      <form class="search">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <input type="text" placeholder="Search.." >
+        </form>
+        
+    </header>
+    <!--header-end-->
+    <!--mobile navstart-->
+   <div class="mobile_nav">
+      <div class="nav_bar">
+        <img src="me.png" class="mobile_profile_image" alt="">
+        <i class="fa fa-bars nav_btn"></i>
+      </div>
+      <div class="mobile_nav_items">
+        <a href="#"><i class="fas fa-home"></i><span>Dashboard</span></a>
+        <a href="#"><i class="fas fa-user"></i><span>My Account</span></a>
+        <a href="#"><i class="fas fa-clipboard-list"></i><span>Activities</span></a>
+        <a href="#"><i class="fas fa-info-circle"></i><span>About</span></a>
+        <a href="#"><i class="fas fa-cog"></i><span>Settings</span></a>
+        </div>
+    </div>
+    <!--mobile nav end-->
+    <!--sidebar start-->
+   
+    <div class="sidebar">
+      <div class="profile_info">
+        <img src="me.png" class="profile_image" alt="">
+        <h4>Admin</h4>
+      </div>
+      <a href="#"><i class="fas fa-home"></i><span>Dashboard</span></a>
+      <a href="#"><i class="fas fa-user"></i><span>My Account</span>
+        <a href="#"><i class="fas fa-clipboard-list"></i><span>Activities</span></a>
+      <a href="#"><i class="fas fa-info-circle"></i><span>About</span></a>
+      <a href="#"><i class="fas fa-cog"></i><span>Settings</span></a>
+    </div>
+    <!--end-->
+
+    <div class="content">
+      <div class="card">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+      </div>
+      <div class="card">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+      </div>
+      <div class="card">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+      </div>
+    </div>
+  
+    <script src="index.js"></script>
+   
+  
+  </body>
+</html>
+
